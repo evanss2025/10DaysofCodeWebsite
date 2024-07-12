@@ -13,19 +13,19 @@ export default function Home() {
           <a className="text-white font-bold m-2 text-lg"  href="#faq"> FAQ </a>
         </nav>
       <section className="bg-no-repeat flex flex-col items-center justify-center" id="top">
-        <img className="w-1/2 m-3" src="10days2.png"></img>
+        <img className="md:w-1/2 m-3" src="10days2.png"></img>
         <h1 className="text-white font-bold md:text-lg flex justify-center items-center w-1/2">10 Days, 240 Hours, 14,400 Minutes - Just to learn how to code. </h1>
         </section>
       <div>
         <a href="https://hackclub.com/">
-          <img className="w-1/6 ml-12 md:ml-56" src="flag2.png"></img>
+          <img className="w-1/6 ml-16 md:ml-56" src="flag2.png"></img>
         </a>
         <img src="sand.png" className="w-screen"></img>
       </div>
       <section className="bg-sand w-full h-full flex justify-center" id="bottom">
         <div className="m-4 flex flex-col  items-center">
           <div className="mt-12 flex flex-col md:flex-row justify-center items-center">
-            <div id="info-container" className="bg-white rounded-xl p-5 m-4 w-1/3">
+            <div id="info-container" className="bg-white rounded-xl p-5 m-4 md:w-1/3">
               <h1 id="about" className="font-bold text-3xl">What is 10 Days of Code?</h1><br/>
               <p>
                 10 Days of Code is a gift to Hack Clubbers to level up their coding skills!<br/><br/>
