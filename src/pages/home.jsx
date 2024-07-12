@@ -22,7 +22,7 @@ export default function Home() {
         </a>
         <img src="sand.png" className="w-screen"></img>
       </div>
-      <section className="bg-sand w-full h-screen flex justify-center" id="bottom">
+      <section className="bg-sand w-full h-full flex justify-center" id="bottom">
         <div className="m-4 flex flex-col  items-center">
           <div className="mt-12 flex flex-col md:flex-row justify-center items-center">
             <div id="info-container" className="bg-white rounded-xl p-5 m-4 w-1/3">
@@ -42,7 +42,7 @@ export default function Home() {
 
           <div className="flex flex-col mt-8 items-center w-full">
             <h1 className="font-bold text-4xl">Past Projects</h1>
-            <div id="projects" className="w-3/4 m-8 grid grid-rows-1 grid-cols-3 md:flex-row items-center justify-center">
+            <div id="projects" className="w-3/4 m-8 grid grid-rows-1 md:grid-cols-3 md:flex-row items-center justify-center">
               <div className="bg-white rounded-xl p-4 m-3 flex flex-col items-center justfiy-center">
                 <h1 className="font-bold">Developing a fully responsive website in React and Tailwind - Malycia, WA</h1>
                 <p className="text-sm mt-2">“I loved having the time to work on a project that was on my todo list for months. I’m so happy to have participated!” - Malycia, 17, Seattle</p>
@@ -58,9 +58,23 @@ export default function Home() {
             </div>
           </div>
 
-          <div id="faq">
-            <h1 className="font-bold text-4xl">FAQ</h1>
+          <div id="faq" className="flex flex-col items-center justify-center w-3/4">
+            <h1 className="font-bold text-4xl w-full flex justify-center items-center">FAQ</h1>
+            <div className="bg-lightblue rounded-lg p-4 mt-4 w-full flex flex-col justify-center items-center">
+              <p className="font-bold text-white text-lg">Why 10 Days?</p>
+              <p className="text-lg flex justify-center items-center">We hope in 10 days high schoolers can explore different coding areas, choose one, and complete and ship a project. It is also fun to hang out with others on the weekend!</p>
+            </div>
+            <div className="bg-lightblue rounded-lg p-4 mt-4 w-full flex flex-col justify-center items-center">
+              <p className="font-bold text-white text-lg">Do I need to know any code?</p>
+              <p className="text-lg flex justify-center items-center">Most participants need to know a bit about coding before joining. For example, knowing GitHub and basic HTML, CSS, and JS. However, beginner coders are still encouraged to attend.</p>
+            </div>
+
           </div>
+          
+          
+          <a href="https://github.com/hackclub/10-days-of-code">
+            <button className="bg-lightblue p-4 text-white rounded-xl m-4 text-3xl mt-8 font-bold hover:bg-darkblue transition duration-200">Learn More</button>
+          </a>
         
         </div>
 
