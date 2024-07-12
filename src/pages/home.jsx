@@ -14,7 +14,7 @@ export default function Home() {
         </nav>
       <section className="bg-no-repeat flex flex-col items-center justify-center" id="top">
         <img className="md:w-1/2 m-3" src="10days2.png"></img>
-        <h1 className="text-white font-bold md:text-lg flex justify-center items-center md:w-1/2">10 Days, 240 Hours, 14,400 Minutes - Just to learn how to code. </h1>
+        <h1 className="text-white font-bold md:text-lg flex justify-center items-center w-4/5 md:w-1/2">10 Days, 240 Hours, 14,400 Minutes - Just to learn how to code. </h1>
         </section>
       <div>
         <a href="https://hackclub.com/">
