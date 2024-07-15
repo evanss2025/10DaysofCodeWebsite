@@ -46,14 +46,17 @@ export default function Home() {
               <div className="bg-white rounded-xl p-4 m-3 flex flex-col items-center justfiy-center">
                 <h1 className="font-bold">Developing a fully responsive website in React and Tailwind - Malycia, WA</h1>
                 <p className="text-sm mt-2">“I loved having the time to work on a project that was on my todo list for months. I’m so happy to have participated!” - Malycia, 17, Seattle</p>
+                <img className="h-52" src="malycia.png"></img>
               </div>
               <div className="bg-white rounded-xl p-4 m-3 flex flex-col items-center justfiy-center">
                 <h1 className="font-bold">Making their own rocket launch simulator in Unity - Savina, CA</h1>
                 <p className="text-sm mt-2">"10 Days of Code was an incredible experience because I not only made new friends and had such great connections/conversations, but I was also able to push myself and learn something completely new in code!"</p>
+                <img src="savina.png"></img>
               </div>
               <div className="bg-white rounded-xl p-4 m-3 flex flex-col items-center justfiy-center">
                 <h1 className="font-bold">Using Google Maps and Airtable to create a town cleanup website. - Sophia, MA</h1>
                 <p className="text-sm mt-2">“10 Days of Code was a great opportunity to learn more about tech and it has grown my passion for coding. Getting advice from people at HQ gave me insight to their skills and helped me learn Airtable and Google Maps API.”</p>
+                <img src="ecoconnect.png"></img>
               </div>
             </div>
           </div>
@@ -61,19 +64,28 @@ export default function Home() {
           <div id="faq" className="flex flex-col items-center justify-center w-3/4">
             <h1 className="font-bold text-4xl w-full flex justify-center items-center">FAQ</h1>
             <div className="bg-lightblue rounded-lg p-4 mt-4 w-full flex flex-col justify-center items-center">
-              <p className="font-bold text-white text-lg">Why 10 Days?</p>
+              <p className="font-bold text-white text-2xl">Why 10 Days?</p>
               <p className="text-lg flex justify-center items-center">We hope in 10 days high schoolers can explore different coding areas, choose one, and complete and ship a project. It is also fun to hang out with others on the weekend!</p>
             </div>
             <div className="bg-lightblue rounded-lg p-4 mt-4 w-full flex flex-col justify-center items-center">
-              <p className="font-bold text-white text-lg">Do I need to know any code?</p>
+              <p className="font-bold text-white text-2xl">Do I need to know any code?</p>
               <p className="text-lg flex justify-center items-center">Most participants need to know a bit about coding before joining. For example, knowing GitHub and basic HTML, CSS, and JS. However, beginner coders are still encouraged to attend.</p>
             </div>
+            <div className="bg-lightblue rounded-lg p-4 mt-4 w-full flex flex-col justify-center items-center">
+              <p className="font-bold text-white text-2xl">How can I participate?</p>
+              <p className="text-lg flex justify-center items-center">Closer to the next program date, we will send out information on how to apply for 10 Days of Code.</p>
+          </div>
+          <div className="bg-lightblue rounded-lg p-4 mt-4 w-full flex flex-col justify-center items-center">
+              <p className="font-bold text-white text-2xl">How often does it run?</p>
+              <p className="text-lg flex justify-center items-center">The first 10 Days of Code ran during the summer, so the next session will most likely be during Summer '25.</p>
+          </div>          
 
           </div>
           
           
+          
           <a href="https://github.com/hackclub/10-days-of-code">
-            <button className="bg-lightblue p-4 text-white rounded-xl m-4 text-3xl mt-8 font-bold hover:bg-darkblue transition duration-200">Learn More</button>
+            <button className="bg-white p-4 text-lightblue rounded-xl m-4 text-3xl mt-8 font-bold hover:bg-stone-100 transition duration-200">Learn More</button>
           </a>
         
         </div>
